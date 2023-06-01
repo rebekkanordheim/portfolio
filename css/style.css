@@ -1,0 +1,15 @@
+.header-logo {
+    max-width: 60%;
+}
+
+nav {
+    /* background: linear-gradient(to bottom, #FF8A00, #FF008A); */
+} 
+nav li {
+    display: block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
