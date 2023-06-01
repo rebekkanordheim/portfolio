@@ -3,14 +3,28 @@
     src: url(/fonts/Manrope-VariableFont_wght.ttf);
 }
 .header-logo {
-    max-width: 150px;
+    max-width: 200px;
+}
+header,
+nav,
+footer {
+    background-color: aqua;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
 }
 
 nav {
     /* background: linear-gradient(to bottom, #FF8A00, #FF008A); */
 } 
 nav li {
-    display: block;
+    display: inline-block;
     padding: 10px;
 }
 .current {
@@ -25,5 +39,9 @@ h1,
 footer,
 a,
 p {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 0;
 }
