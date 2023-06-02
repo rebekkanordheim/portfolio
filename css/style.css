@@ -2,13 +2,19 @@
     font-family: 'Manrope';
     src: url(/fonts/Manrope-VariableFont_wght.ttf);
 }
-.header-logo {
-    max-width: 200px;
+
+h1,
+h2,
+footer,
+a,
+p {
+    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
 }
+
 header,
 nav,
 footer {
-    background-color: aqua;
+    background-color: #503A2F;
     padding: 10px;
 }
 
@@ -20,28 +26,35 @@ header {
     top: 0;
 }
 
-nav {
-    /* background: linear-gradient(to bottom, #FF8A00, #FF008A); */
-} 
 nav li {
     display: inline-block;
     padding: 10px;
 }
+a {
+    text-decoration: none;
+    color:#FFF;
+    text-transform: uppercase;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    
+}
+
+body {
+    margin: 0px;
+}
+
+.header-logo {
+    max-width: 200px;
+}
+
 .current {
     text-decoration: underline;
 }
 
-a {
-    text-decoration: none;
+.main_context {
+    margin: 0px 30px;
 }
 
-h1,
-footer,
-a,
-p {
-    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
-    padding: 0;
-}
