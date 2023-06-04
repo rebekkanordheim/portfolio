@@ -11,6 +11,7 @@ a,
 p {
     font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: white
 }
 
 header,
@@ -64,6 +65,9 @@ footer {
 
 body {
     margin: 0px;
+    background-image: url('../images/bodyimage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-logo {
@@ -79,16 +83,15 @@ body {
 }
 
 .main_context {
-    margin: 0px 30px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.465);
 }
 
 .cards {
-    max-width: 1000px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 30px;
-    
 }
 
 .project-cards {
@@ -102,6 +105,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: rgba(108, 108, 108, 0.271);
 }
 
 .card-image {
