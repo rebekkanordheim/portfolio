@@ -3,6 +3,7 @@
     src: url(/fonts/Manrope-VariableFont_wght.ttf);
 }
 
+
 h1,
 h2,
 h3,
@@ -71,11 +72,8 @@ body {
     background-color: #FFF;
 }
 
-.header-logo {
-    max-width: 200px;
-}
-
-.portrait{
+.header-logo,
+.portrait {
     max-width: 200px;
 }
 
@@ -95,15 +93,19 @@ body {
 }
 
 .project-cards {
-    border: 2px solid black;
+    border: 3px solid #503a2fba;
+    border-radius: 10px;
     width: 300px;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.project-cards h3 {
+    text-transform: uppercase;
 }
 
 .card-image {
@@ -112,6 +114,12 @@ body {
     padding: 5px;
     margin-top: 20px;
     object-fit: cover;
+}
+
+.repolink {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .repolink a {
