@@ -3,22 +3,6 @@
     src: url(/fonts/Manrope-VariableFont_wght.ttf);
 }
 
-@media (min-width: 700) {
-    nav {
-        display: inline-block;
-        position: static;
-    }
-    nav li {
-        display: inline-block;
-        padding: 20px;
-    }
-
-    header label {
-        display: none;
-    }
-}
-
-
 h1,
 h2,
 h3,
@@ -58,10 +42,16 @@ header {
     display: block;
 }
 
-
-nav li{
-    display: inline-block;
-    padding: 10px;
+nav {
+    display: none;
+    position: fixed;
+    right: 0px;
+    top: 120px;
+}
+nav li {
+    display: block;
+    padding: 20px;
+    padding-right: 50px;
 }
 nav li:hover {
     background-color: #c5a37e;
